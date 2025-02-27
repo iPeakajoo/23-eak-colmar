@@ -63,8 +63,8 @@ const page = () => {
           </div>
         </section>
 
-        <section className="infomation border-b border-b-[1px]">
-          <Information informatioin={infomation} />
+        <section className="information border-b border-b-1">
+          <Information information={information} />
         </section>
 
         <section className="course">
