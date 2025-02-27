@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: #525252;
+}
+
+.header {
+  @apply w-full h-[4rem] bg-gray-100;
+}
+.navbar {
+  @apply p-4;
+}
+.navbar-menu {
+  @apply flex justify-around items-center;
+}
+
+.information {
+  @apply p-[16px];
+}
+.information-content {
+  @apply p-[16px];
+}
+.information-date {
+  @apply text-[16px]  font-normal;
+}
+.information-link {
+  @apply text-blue-500 text-[16px];
+}
+.information-link:hover {
+  @apply text-red-700;
+}
+
+.course-container {
+  @apply flex flex-col gap-[8px];
+}
+.course {
+  @apply p-[16px] mt-[16px];
+}
+.course-item {
+  @apply font-bold  w-full pt-[16px] pb-[24px] pl-[16px] bg-[#D8D8D8];
+}
