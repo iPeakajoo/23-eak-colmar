@@ -73,7 +73,6 @@ const page = () => {
         </section>
 
         <section className="thesis">
-          <h2 className="text-2xl text-center">Thesis exhibits</h2>
           <Thesis />
         </section>
       </main>
