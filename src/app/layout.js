@@ -1,8 +1,8 @@
-import Navbar from "../component/Navbar";
-import Footer from "../component/Footer";
 
+import "./globals.css";
 
-import "./styles/globals.css";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 export const metadata = {
   title: "23-eak-colmar",
@@ -21,16 +21,18 @@ export const navigation = [
   { url: "/assets/images/ic-login.svg", href: "/login", alt: "Login" },
 ];
 
-const Layout = ({ children }) => {
+
+export default function RootLayout({ children }) {
   return (
-    <html>
-      <body>
-      <Navbar navigation={navigation} />
+    <html lang="en">
+      <body className=""
+      >
+        <Navbar navigation={navigation}/>
         {children}
 
         <Footer/>
+
       </body>
     </html>
   );
-};
-export default Layout;
+}

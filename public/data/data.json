@@ -1,0 +1,51 @@
+{
+  "information": [
+    {
+      "url": "/assets/images/information-orientation-mobile.jpg",
+      "title": "Orientation date",
+      "date": "Tue 10/11 & Wed 10/12: 8am-3am"
+    },
+    {
+      "url": "/assets/images/information-campus-mobile.jpg",
+      "title": "Our campus",
+      "date": "Find which campus is close by you"
+    },
+    {
+      "url": "/assets/images/information-guest-lecture-mobile.jpg",
+      "title": "Special guest lecture",
+      "date": "Join a keynote with Oliver Sack about music in medical treatment"
+    }
+  ],
+  "course": [
+    {
+      "title": "Software Engineering",
+      "url": "/assets/images/course-software.jpg",
+      "description": "Web Development, Mobile Development, iOT, APIs"
+    },
+    {
+      "title": "Computer Art",
+      "url": "/assets/images/course-computer-art.jpg",
+      "description": "Web Development, Mobile Development, iOT, APIs"
+    },
+    {
+      "title": "Design",
+      "url": "/assets/images/course-design.jpg",
+      "description": "Web Development, Mobile Development, iOT, APIs"
+    },
+    {
+      "title": "Data",
+      "url": "/assets/images/course-data.jpg",
+      "description": "Web Development, Mobile Development, iOT, APIs"
+    },
+    {
+      "title": "Business",
+      "url": "/assets/images/course-business.jpg",
+      "description": "Web Development, Mobile Development, iOT, APIs"
+    },
+    {
+      "title": "Marketing",
+      "url": "/assets/images/course-marketing.jpg",
+      "description": "Web Development, Mobile Development, iOT, APIs"
+    }
+  ]
+}
