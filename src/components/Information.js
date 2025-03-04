@@ -33,7 +33,7 @@ const Information = ({ information }) => {
           {information.map((item, index) => (
             <div
               key={index}
-              className="flex items-center p-[32px] w-full gap-4 "
+              className="flex items-center p-[32px] w-full gap-4 hover:bg-gray-200 cursor-pointer hover:scale-105"
             >
               <div className="w-[35%] aspect-square overflow-hidden">
                 <Image

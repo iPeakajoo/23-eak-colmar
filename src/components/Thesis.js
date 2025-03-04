@@ -25,7 +25,7 @@ const Thesis = ({thesis}) => {
           {thesis.map((item, index) => (
             <div
               key={index}
-              className="flex items-center p-[24px] w-full gap-4 "
+              className="flex items-center p-[24px] w-full gap-4 hover:bg-gray-200 hover:scale-105 cursor-pointer"
             >
               <div className="w-[35%] aspect-square overflow-hidden">
                 <Image
