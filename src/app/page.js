@@ -4,6 +4,22 @@ import Course from "../components/Course";
 import Thesis from "@/components/Thesis";
 
 
+export const thesis = [
+  {
+    url: "/assets/images/thesis-fisma.jpg",
+    title: "Fisma: Design and Prototype",
+    description: "Designer showcase of new prototype product",
+    alt:"thesis-fisma"
+  },
+  {
+    url: "/assets/images/thesis-now-and-then.jpg",
+    title: "Now and then",
+    description: "Research study about New York",
+    alt:"thesis-now-and-then" 
+  },
+
+];
+
 export const information = [
   {
     url: "/assets/images/information-orientation-mobile.jpg",
@@ -17,7 +33,7 @@ export const information = [
   },
   {
     url: "/assets/images/information-guest-lecture-mobile.jpg",
-    title: "Special guest lecture",
+    title: "Our guest lecture",
     date: "Join a keynote with Oliver Sack about music in medical treatment",
   },
 ];
@@ -63,18 +79,17 @@ const page = () => {
           <Hero />
         </section>
 
-        <section className="information flex bg-gray-200 px-[24px] py-[32px] gap-[24px]">
+        <section className="information">
           <Information information={information} />
         </section>
 
-        <section className="course">
-          <h2 className=" text-4xl text-center ">Start learning</h2>
+        <section className="course  bg-gray-200">  
           <Course course={course} className=""/>
         </section>
 
         <section className="thesis">
-          <h2 className="text-4xl text-center">Thesis exhibit</h2>
-          <Thesis />
+          
+          <Thesis thesis={thesis}/>
         </section>
       </main>
     </>
